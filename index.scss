@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    .app-main-container {
+        display: flex;
+        justify-content: center;
+        .calendar-wrapper {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            .left-side-wrapper {
+                .block {
+                    border-top: 1px solid rgb(189, 188, 188);
+                    width: 200px;
+                    padding-left: 5px;
+                    &:hover {
+                        .event {
+                            cursor: pointer;
+                        }
+                    }
+                    font: {
+                        family: "Open Sans", sans-serif;
+                        size: 16px;
+                        weight: 200; 
+                    }
+                    color: #ACACAC;
+                    .time {
+                        margin-top: 0;
+                        .event {
+                            background-color: #E2ECF5;
+                            border-left: 2px solid #6E9ECF;
+                            padding: 5px;
+                            font: {
+                                family: "Open Sans", sans-serif;
+                                size: 14px;
+                                weight: 200;
+                            }
+                            color: black; 
+
+                        }
+                        .exercise {
+                            position: relative;
+                            top: -15px;
+                            left: 1px;
+                            float: right;
+                            width: 160px;
+                        }
+                        .plan-day {
+                            width: 80px;
+                            float: right;
+                            position: relative;
+                            left: -79px;
+                            top: -27px;
+                            height: 45px;
+                        }
+                        .travel {
+                            width: 80px;
+                            float: right;
+                            position: relative;
+                            left: 80px;
+                            top: -34px;
+                            height: 45px;
+                        }
+                    
+                    }
+                    .small {
+                        font-size: 12px;
+                        padding-left: 5px;
+                        margin-top: 25px;
+                    }
+                }
+                .second {
+                    margin-top: 32px;
+                    .review {
+                        float: right;
+                        position: relative;
+                        top: -55px;
+                        width: 160px;
+                        left: 1px;
+                    }
+                    .code-review {
+                        float: right;
+                        position: relative;
+                        top: -65px;
+                        left: 1px;
+                        width: 160px;
+                    }
+                }
+                .third {
+                    margin-top: 32px;
+                    .ten {
+                        position: relative;
+                        top: -73px;
+                        left: -5px;
+                    }
+                    .ten-small {
+                        position: relative;
+                        top: -73px;
+                        left: -5px;
+                    }
+                }
+                .fourth {
+                    margin-top: -50px;
+                    .eleven {
+                        position: relative;
+                        left: -5px;
+                    }
+                    .lunch {
+                        float: right;
+                        position: relative;
+                        top: -33px;
+                        left: 5px;
+                        width: 160px;
+                        height: 150px;
+                    }
+                    .eleven-small {
+                        position: relative;
+                        left: -5px;
+                        top: 3px;
+                    }
+                }
+                .fifth {
+                    margin-top: 40px;
+                    .twelve {
+                        position: relative;
+                        top: -97px;
+                        left: -5px;
+                    }
+                    .twelve-small {
+                        position: relative;
+                        top: -95px;
+                        left: -5px;
+                    }
+                }
+            }
+            .right-side-wrapper {
+                .block {
+                    border-top: 1px solid rgb(189, 188, 188);
+                    width: 200px;
+                    padding-left: 5px;
+                    &:hover {
+                        .event {
+                            cursor: pointer;
+                        }
+                    }
+                    font: {
+                        family: "Open Sans", sans-serif;
+                        size: 16px;
+                        weight: 200; 
+                    }
+                    color: #ACACAC;
+                    .time {
+                        margin-top: 0;
+                        .event {
+                            background-color: #E2ECF5;
+                            border-left: 2px solid #6E9ECF;
+                            padding: 5px;
+                            font: {
+                                family: "Open Sans", sans-serif;
+                                size: 14px;
+                                weight: 200;
+                            }
+                            color: black; 
+
+                        }
+                        .follow {
+                            position: relative;
+                            top: -55px;
+                            left: 30px;
+                            width: 80px;
+                            height: 70px;
+                        }
+                        .skype {
+                            position: relative;
+                            top: -156px;
+                            left: 110px;
+                            width: 80px;
+                            height: 45px;
+                        }
+                        .push {
+                            width: 80px;
+                            position: relative;
+                            top: -55px;
+                            left: 115px;
+                            height: 50px;
+                        }
+                    }
+                    .small {
+                        font-size: 12px;
+                        padding-left: 5px;
+                        margin-top: 25px;
+                    }
+                    
+                }
+                .seventh {
+                    margin-top: 30px;
+                }
+                .eighth {
+                    margin-top: -123px;
+                    .three-small {
+                        position: relative;
+                        top: -65px;
+                        left: -2px;
+                    }
+                }
+                .ninth {
+                    margin-top: -40px;
+                    .four-small {
+                        position: relative;
+                        left: -2px;
+                        top: 7px;
+                    }
+                }
+                .tenth {
+                    margin-top: 39px;
+                }                
+            }
+        }
+    }
+}
